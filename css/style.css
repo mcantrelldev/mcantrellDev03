@@ -1,0 +1,132 @@
+/* Styling in the body */
+body {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  background-color: lightgrey;
+}
+
+/* Styling for the banner */
+#fixed-div {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 100;
+}
+
+/* Styling for text on the banner */
+#fixed-text {
+  width: 100%;
+  text-align: center; 
+  width: 100%;
+  color: white;
+  font-size: 50px;
+}
+
+/* Logo styling */
+#logo {
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+/* Header styling */
+header {
+  position: relative;
+  top: 100px;
+  font-size: 30px;
+	
+}
+
+/* Div 1's container */
+#containerBoxOne {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10% auto;
+}
+
+/* Div 2's container */
+#containerBoxTwo {
+ 
+  width: 1350px;
+  height: 350px;
+  justify-content: space-around;
+  margin: 0px auto;
+
+}
+
+/* Div 3's container */
+#containerBoxThree {
+  width: 30%;
+  display: inline-block;
+  justify-content: space-around;
+  margin: 10% auto;
+	
+}
+
+/* Div 1's boxes */
+.contentBoxOne {
+  width: 25%;
+  height: 20%;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+}
+
+/* Div 2's boxes */
+.floatBox {
+  height: 300px;
+  width: 420px;
+  float: right;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  
+}
+
+/* Div 3's boxes */
+.contentBoxTwo {
+  font-size: 25px;
+  width: 400px;
+  height: 300px;
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+  
+}
+
+/* Live Chat Box */
+#chatBox {
+  position: fixed;
+  right: 0px;
+  bottom: 20px;
+  width: 80px;
+  height: 30px;
+  background-color: mediumseagreen;
+  text-align: center;
+  color: white;
+  z-index: 100;
+}
+
+/* Footer styling */
+footer {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 5%;
+  font-size: 30px;
+  color: white;
+  background-color: black
+}
